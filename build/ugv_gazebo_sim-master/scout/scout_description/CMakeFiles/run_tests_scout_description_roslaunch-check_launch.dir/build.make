@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Utility rule file for run_tests_scout_description_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
 include ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/progress.make
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/nawres/simulation_ws/build/test_results/scout_description/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/nawres/simulation_ws/build/test_results/scout_description" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/nawres/simulation_ws/build/test_results/scout_description/roslaunch-check_launch.xml\" \"/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_description/launch\" "
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/nawres/scout_simulation/build/test_results/scout_description/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/nawres/scout_simulation/build/test_results/scout_description" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/nawres/scout_simulation/build/test_results/scout_description/roslaunch-check_launch.xml\" \"/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_description/launch\" "
 
 run_tests_scout_description_roslaunch-check_launch: ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch
 run_tests_scout_description_roslaunch-check_launch: ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/build.make
@@ -67,10 +67,10 @@ ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_descrip
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/build
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/clean
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_description /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_description /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/run_tests_scout_description_roslaunch-check_launch.dir/depend
 

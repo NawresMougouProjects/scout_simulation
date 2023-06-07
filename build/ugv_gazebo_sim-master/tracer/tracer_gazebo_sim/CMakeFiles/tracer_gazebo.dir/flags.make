@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"tracer_gazebo_sim\"
 
-CXX_INCLUDES = -I/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

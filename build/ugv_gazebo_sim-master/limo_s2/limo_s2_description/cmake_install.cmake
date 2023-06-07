@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo_s2/limo_s2_description
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo_s2/limo_s2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_s2_description/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_descriptionConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_descriptionConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_descriptionConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo_s2/limo_s2_description/catkin_generated/installspace/limo_s2_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_s2_description" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo_s2/limo_s2_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_s2_description" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo_s2/limo_s2_description/package.xml")
 endif()
 

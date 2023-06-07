@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Utility rule file for clean_test_results_steer_drive_controller.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
 include ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/progress.make
 
 ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/nawres/simulation_ws/build/test_results/steer_drive_controller
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/nawres/scout_simulation/build/test_results/steer_drive_controller
 
 clean_test_results_steer_drive_controller: ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller
 clean_test_results_steer_drive_controller: ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/build.make
@@ -67,10 +67,10 @@ ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_result
 .PHONY : ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/build
 
 ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_steer_drive_controller.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_steer_drive_controller.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/clean
 
 ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/clean_test_results_steer_drive_controller.dir/depend
 

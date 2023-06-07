@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/install
+prefix=/home/nawres/scout_simulation/install
 
 Name: scout_description
 Description: Description of scout_description

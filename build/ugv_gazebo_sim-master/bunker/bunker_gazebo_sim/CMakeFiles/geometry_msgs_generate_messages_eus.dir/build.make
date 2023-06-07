@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate
 .PHONY : ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/bunker/bunker_gazebo_sim/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

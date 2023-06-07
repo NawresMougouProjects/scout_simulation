@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/devel
+prefix=/home/nawres/scout_simulation/devel
 
 Name: hunter2_base
 Description: Description of hunter2_base

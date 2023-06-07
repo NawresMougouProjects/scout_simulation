@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/install
+prefix=/home/nawres/scout_simulation/install
 
 Name: steer_bot_hardware_gazebo
 Description: Description of steer_bot_hardware_gazebo

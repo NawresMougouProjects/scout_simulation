@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o"
-  "/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller.pdb"
-  "/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller"
+  "/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller.pdb"
+  "/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller"
 )
 
 # Per-language clean rules from dependency scanning.

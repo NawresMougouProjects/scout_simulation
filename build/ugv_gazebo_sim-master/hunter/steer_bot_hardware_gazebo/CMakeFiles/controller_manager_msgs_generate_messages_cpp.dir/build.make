@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Utility rule file for controller_manager_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_man
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend
 

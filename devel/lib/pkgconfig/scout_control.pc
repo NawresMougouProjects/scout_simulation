@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/devel
+prefix=/home/nawres/scout_simulation/devel
 
 Name: scout_control
 Description: Description of scout_control

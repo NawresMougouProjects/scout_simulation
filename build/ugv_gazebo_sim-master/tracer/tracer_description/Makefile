@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/simulation_ws/build/CMakeFiles /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/progress.marks
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/simulation_ws/build/CMakeFiles 0
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/scout_simulation/build/CMakeFiles /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/progress.marks
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/scout_simulation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/clean
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/preinstall
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/preinstall
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/rule
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/rule
 .PHONY : ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ tracer_description_xacro_generated_to_devel_space_: ugv_gazebo_sim-master/tracer
 
 # fast build rule for target.
 tracer_description_xacro_generated_to_devel_space_/fast:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/build.make ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/build
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/build.make ugv_gazebo_sim-master/tracer/tracer_description/CMakeFiles/tracer_description_xacro_generated_to_devel_space_.dir/build
 .PHONY : tracer_description_xacro_generated_to_devel_space_/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

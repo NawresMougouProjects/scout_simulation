@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_sim.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_sim.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_gazebo_sim/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_simConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_simConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_simConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/limo/limo_gazebo_sim/catkin_generated/installspace/limo_gazebo_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_gazebo_sim" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/limo_gazebo_sim" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_ackerman.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nawres/simulation_ws/devel/lib/libgazebo_ros_ackerman.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nawres/scout_simulation/devel/lib/libgazebo_ros_ackerman.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_ackerman.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_ros_ackerman.so")
     file(RPATH_CHANGE

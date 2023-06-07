@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/./../include/steerbot.h
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/./../include/steerbot.h
 ros/ros.h
 -
 std_msgs/Float64.h
@@ -28,13 +28,13 @@ limits
 sstream
 -
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/steerbot.cpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/steerbot.cpp
 ros/ros.h
 -
 controller_manager/controller_manager.h
 -
 ./../include/steerbot.h
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/./../include/steerbot.h
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/test/common/src/./../include/steerbot.h
 
 /opt/ros/melodic/include/class_loader/class_loader.hpp
 boost/bind.hpp

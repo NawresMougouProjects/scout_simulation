@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Include any dependencies generated for this target.
 include ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/depend.make
@@ -58,17 +58,17 @@ include ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer
 include ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/flags.make
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/flags.make
-ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o -c /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
+ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o -c /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.i"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp > CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.i
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp > CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.i
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.s"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp -o CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.s
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/src/scout_skid_steer_controller.cpp -o CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.s
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o.requires:
 
@@ -88,37 +88,37 @@ scout_skid_steer_controller_OBJECTS = \
 # External object files for target scout_skid_steer_controller
 scout_skid_steer_controller_EXTERNAL_OBJECTS =
 
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/build.make
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /home/nawres/simulation_ws/devel/lib/libscout_gazebo.a
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libtf2_ros.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libactionlib.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libmessage_filters.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libroscpp.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libtf2.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librostime.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libcpp_common.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_skid_steer_controller.dir/link.txt --verbose=$(VERBOSE)
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/src/scout_skid_steer_controller.cpp.o
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/build.make
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /home/nawres/scout_simulation/devel/lib/libscout_gazebo.a
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libtf2_ros.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libactionlib.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libmessage_filters.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libroscpp.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libtf2.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/librostime.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /opt/ros/melodic/lib/libcpp_common.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller: ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_skid_steer_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/build: /home/nawres/simulation_ws/devel/lib/scout_gazebo_sim/scout_skid_steer_controller
+ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/build: /home/nawres/scout_simulation/devel/lib/scout_gazebo_sim/scout_skid_steer_controller
 
 .PHONY : ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/build
 
@@ -127,10 +127,10 @@ ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_control
 .PHONY : ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/requires
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_skid_steer_controller.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_skid_steer_controller.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/clean
 
 ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/scout/scout_gazebo_sim/CMakeFiles/scout_skid_steer_controller.dir/depend
 

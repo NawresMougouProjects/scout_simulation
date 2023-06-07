@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/include/limo_gazebo/gazebo_ros_ackerman_drive.h
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/include/limo_gazebo/gazebo_ros_ackerman_drive.h
 map
 -
 gazebo/common/common.hh
@@ -36,7 +36,7 @@ boost/thread.hpp
 boost/bind.hpp
 -
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/src/gazebo_ros_ackerman_drive.cpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim/src/gazebo_ros_ackerman_drive.cpp
 algorithm
 -
 assert.h

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include/tracer_gazebo/tracer_skid_steer.hpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include/tracer_gazebo/tracer_skid_steer.hpp
 geometry_msgs/Twist.h
 -
 ros/ros.h
@@ -14,7 +14,7 @@ ros/ros.h
 string
 -
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer_controller.cpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer_controller.cpp
 nav_msgs/Odometry.h
 -
 ros/ros.h
@@ -26,7 +26,7 @@ tf/transform_broadcaster.h
 string
 -
 tracer_gazebo/tracer_skid_steer.hpp
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_gazebo/tracer_skid_steer.hpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_gazebo/tracer_skid_steer.hpp
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/install
+prefix=/home/nawres/scout_simulation/install
 
 Name: steer_drive_controller
 Description: Description of steer_drive_controller

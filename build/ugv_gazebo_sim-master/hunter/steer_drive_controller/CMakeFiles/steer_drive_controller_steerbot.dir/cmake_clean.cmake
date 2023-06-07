@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/steer_drive_controller_steerbot.dir/test/common/src/steerbot.cpp.o"
-  "/home/nawres/simulation_ws/devel/lib/steer_drive_controller/steer_drive_controller_steerbot.pdb"
-  "/home/nawres/simulation_ws/devel/lib/steer_drive_controller/steer_drive_controller_steerbot"
+  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_steerbot.pdb"
+  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_steerbot"
 )
 
 # Per-language clean rules from dependency scanning.

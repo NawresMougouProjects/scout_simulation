@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/install
+prefix=/home/nawres/scout_simulation/install
 
 Name: limo_gazebo_sim
 Description: Description of limo_gazebo_sim

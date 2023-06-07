@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/include/steer_bot_hardware_gazebo/steer_bot_hardware_gazebo.h
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/include/steer_bot_hardware_gazebo/steer_bot_hardware_gazebo.h
 vector
 -
 string
@@ -30,7 +30,7 @@ gazebo/physics/physics.hh
 gazebo/common/common.hh
 -
 
-/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
+/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
 angles/angles.h
 -
 urdf_parser/urdf_parser.h

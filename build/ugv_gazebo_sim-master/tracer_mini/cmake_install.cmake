@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer_mini
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer_mini
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_mini.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_mini.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tracer_mini/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_miniConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_miniConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_miniConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer_mini/catkin_generated/installspace/tracer_miniConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tracer_mini" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer_mini/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tracer_mini" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer_mini/package.xml")
 endif()
 

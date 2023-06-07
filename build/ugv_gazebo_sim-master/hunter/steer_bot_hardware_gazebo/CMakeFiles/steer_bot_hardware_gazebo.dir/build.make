@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Include any dependencies generated for this target.
 include ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/depend.make
@@ -58,17 +58,17 @@ include ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_
 include ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/flags.make
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/flags.make
-ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o -c /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
+ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o -c /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.i"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp > CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.i
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp > CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.i
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.s"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp -o CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.s
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/src/steer_bot_hardware_gazebo.cpp -o CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.s
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o.requires:
 
@@ -88,158 +88,158 @@ steer_bot_hardware_gazebo_OBJECTS = \
 # External object files for target steer_bot_hardware_gazebo
 steer_bot_hardware_gazebo_EXTERNAL_OBJECTS =
 
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/build.make
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libgazebo_ros_control.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libdefault_robot_hw_sim.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcontroller_manager.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcontrol_toolbox.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librealtime_tools.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_parser.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_loader.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/liburdf.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/libPocoFoundation.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroslib.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librospack.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librostime.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-transport4.so.4.0.0
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-msgs1.so.1.0.0
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common1.so.1.0.1
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools1.so.1.0.0
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librostime.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-math4.so.4.0.0
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libswscale.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libswscale.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavformat.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavformat.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavutil.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavutil.so
-/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/steer_bot_hardware_gazebo.dir/link.txt --verbose=$(VERBOSE)
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/build.make
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libgazebo_ros_control.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libdefault_robot_hw_sim.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcontroller_manager.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcontrol_toolbox.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librealtime_tools.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_parser.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_loader.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/liburdf.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/libPocoFoundation.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroslib.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librospack.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librostime.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-transport4.so.4.0.0
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-msgs1.so.1.0.0
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-common1.so.1.0.1
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools1.so.1.0.0
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/librostime.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libignition-math4.so.4.0.0
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libswscale.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libswscale.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavformat.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavformat.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavutil.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: /usr/lib/x86_64-linux-gnu/libavutil.so
+/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so: ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/steer_bot_hardware_gazebo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/build: /home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so
+ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/build: /home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so
 
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/build
 
@@ -248,10 +248,10 @@ ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hard
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/requires
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/steer_bot_hardware_gazebo.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/steer_bot_hardware_gazebo.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/clean
 
 ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/hunter/steer_bot_hardware_gazebo/CMakeFiles/steer_bot_hardware_gazebo.dir/depend
 

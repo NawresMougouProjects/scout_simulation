@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer_controller.cpp" "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_skid_steer_controller.dir/src/tracer_skid_steer_controller.cpp.o"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer_controller.cpp" "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_skid_steer_controller.dir/src/tracer_skid_steer_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,14 +17,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/DependInfo.cmake"
+  "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-prefix=/home/nawres/simulation_ws/install
+prefix=/home/nawres/scout_simulation/install
 
 Name: realsense_gazebo_plugin
 Description: Description of realsense_gazebo_plugin

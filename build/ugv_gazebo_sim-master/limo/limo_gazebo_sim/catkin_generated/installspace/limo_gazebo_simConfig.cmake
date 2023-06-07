@@ -67,14 +67,14 @@ set(limo_gazebo_sim_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(limo_gazebo_sim_SOURCE_PREFIX /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim)
-  set(limo_gazebo_sim_DEVEL_PREFIX /home/nawres/simulation_ws/devel)
+  set(limo_gazebo_sim_SOURCE_PREFIX /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/limo/limo_gazebo_sim)
+  set(limo_gazebo_sim_DEVEL_PREFIX /home/nawres/scout_simulation/devel)
   set(limo_gazebo_sim_INSTALL_PREFIX "")
   set(limo_gazebo_sim_PREFIX ${limo_gazebo_sim_DEVEL_PREFIX})
 else()
   set(limo_gazebo_sim_SOURCE_PREFIX "")
   set(limo_gazebo_sim_DEVEL_PREFIX "")
-  set(limo_gazebo_sim_INSTALL_PREFIX /home/nawres/simulation_ws/install)
+  set(limo_gazebo_sim_INSTALL_PREFIX /home/nawres/scout_simulation/install)
   set(limo_gazebo_sim_PREFIX ${limo_gazebo_sim_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nawres/simulation_ws/install/lib;/home/nawres/vision_ws/devel/lib;/home/nawres/simulation_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/nawres/scout_simulation/install/lib;/home/nawres/scout_simulation/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

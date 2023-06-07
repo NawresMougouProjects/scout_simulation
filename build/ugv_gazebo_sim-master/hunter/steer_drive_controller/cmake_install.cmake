@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controller.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controller.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_drive_controller/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controllerConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controllerConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controllerConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/catkin_generated/installspace/steer_drive_controllerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_drive_controller" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_drive_controller" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsteer_drive_controller.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nawres/simulation_ws/devel/lib/libsteer_drive_controller.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nawres/scout_simulation/devel/lib/libsteer_drive_controller.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsteer_drive_controller.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsteer_drive_controller.so")
     file(RPATH_CHANGE
@@ -73,6 +73,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_drive_controller" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/steer_drive_controller_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_drive_controller" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/steer_drive_controller_plugins.xml")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_base.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_base.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_baseConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_baseConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_baseConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/hunter2_base/catkin_generated/installspace/hunter2_baseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/config" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/config" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/launch" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/launch" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/meshes" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/meshes" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/urdf" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/hunter2_base/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hunter2_base/urdf" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/hunter2_base/urdf/")
 endif()
 

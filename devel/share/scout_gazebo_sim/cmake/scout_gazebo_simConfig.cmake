@@ -67,14 +67,14 @@ set(scout_gazebo_sim_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(scout_gazebo_sim_SOURCE_PREFIX /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim)
-  set(scout_gazebo_sim_DEVEL_PREFIX /home/nawres/simulation_ws/devel)
+  set(scout_gazebo_sim_SOURCE_PREFIX /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim)
+  set(scout_gazebo_sim_DEVEL_PREFIX /home/nawres/scout_simulation/devel)
   set(scout_gazebo_sim_INSTALL_PREFIX "")
   set(scout_gazebo_sim_PREFIX ${scout_gazebo_sim_DEVEL_PREFIX})
 else()
   set(scout_gazebo_sim_SOURCE_PREFIX "")
   set(scout_gazebo_sim_DEVEL_PREFIX "")
-  set(scout_gazebo_sim_INSTALL_PREFIX /home/nawres/simulation_ws/install)
+  set(scout_gazebo_sim_INSTALL_PREFIX /home/nawres/scout_simulation/install)
   set(scout_gazebo_sim_PREFIX ${scout_gazebo_sim_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(scout_gazebo_sim_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/include " STREQUAL " ")
+if(NOT "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/include " STREQUAL " ")
   set(scout_gazebo_sim_INCLUDE_DIRS "")
-  set(_include_dirs "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/include")
+  set(_include_dirs "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/include")
   if(NOT "https://github.com/husky/husky_simulator/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/husky/husky_simulator/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/scout_gazebo " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_
         message(FATAL_ERROR "Project 'scout_gazebo_sim' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'scout_gazebo_sim' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'scout_gazebo_sim' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_gazebo_sim/${idir}'.  ${_report}")
     endif()
     _list_append_unique(scout_gazebo_sim_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nawres/simulation_ws/devel/lib;/home/nawres/vision_ws/devel/lib;/home/nawres/simulation_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/nawres/scout_simulation/devel/lib;/home/nawres/scout_simulation/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

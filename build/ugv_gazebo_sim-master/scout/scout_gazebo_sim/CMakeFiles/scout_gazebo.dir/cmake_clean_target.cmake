@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/nawres/simulation_ws/devel/lib/libscout_gazebo.a"
+  "/home/nawres/scout_simulation/devel/lib/libscout_gazebo.a"
 )

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/odometry.cpp" "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/odometry.cpp.o"
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/speed_limiter.cpp" "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/speed_limiter.cpp.o"
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/steer_drive_controller.cpp" "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/steer_drive_controller.cpp.o"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/odometry.cpp" "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/odometry.cpp.o"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/speed_limiter.cpp" "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/speed_limiter.cpp.o"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/src/steer_drive_controller.cpp" "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/hunter/steer_drive_controller/CMakeFiles/steer_drive_controller.dir/src/steer_drive_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/include"
+  "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-9"

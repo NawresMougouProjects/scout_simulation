@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Utility rule file for clean_test_results_scout_description.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
 include ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/progress.make
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/nawres/simulation_ws/build/test_results/scout_description
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/nawres/scout_simulation/build/test_results/scout_description
 
 clean_test_results_scout_description: ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description
 clean_test_results_scout_description: ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/build.make
@@ -67,10 +67,10 @@ ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scou
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/build
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_description.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_description.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/clean
 
 ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/scout/scout_description /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/scout/scout_description /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/scout/scout_description/CMakeFiles/clean_test_results_scout_description.dir/depend
 

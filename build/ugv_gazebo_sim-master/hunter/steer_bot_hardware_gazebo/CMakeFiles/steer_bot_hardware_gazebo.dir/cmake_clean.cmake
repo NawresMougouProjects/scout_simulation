@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/steer_bot_hardware_gazebo.dir/src/steer_bot_hardware_gazebo.cpp.o"
-  "/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.pdb"
-  "/home/nawres/simulation_ws/devel/lib/libsteer_bot_hardware_gazebo.so"
+  "/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.pdb"
+  "/home/nawres/scout_simulation/devel/lib/libsteer_bot_hardware_gazebo.so"
 )
 
 # Per-language clean rules from dependency scanning.

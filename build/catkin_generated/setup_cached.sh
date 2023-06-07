@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/nawres/simulation_ws/build'
+export PWD='/home/nawres/scout_simulation/build'

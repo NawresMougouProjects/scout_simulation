@@ -1,8 +1,8 @@
-# Install script for directory: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit
+# Install script for directory: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nawres/simulation_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nawres/scout_simulation/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokit.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokit.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/cmake" TYPE FILE FILES
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokitConfig.cmake"
-    "/home/nawres/simulation_ws/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokitConfig-version.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokitConfig.cmake"
+    "/home/nawres/scout_simulation/build/ugv_gazebo_sim-master/autokit/catkin_generated/installspace/autokitConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit" TYPE FILE FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit" TYPE FILE FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/config" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/config" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/launch" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/launch" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/meshes" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/meshes" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/urdf" TYPE DIRECTORY FILES "/home/nawres/simulation_ws/src/ugv_gazebo_sim-master/autokit/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/autokit/urdf" TYPE DIRECTORY FILES "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/autokit/urdf/")
 endif()
 

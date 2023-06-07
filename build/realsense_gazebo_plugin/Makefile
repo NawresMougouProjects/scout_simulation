@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/simulation_ws/build/CMakeFiles /home/nawres/simulation_ws/build/realsense_gazebo_plugin/CMakeFiles/progress.marks
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/simulation_ws/build/CMakeFiles 0
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/scout_simulation/build/CMakeFiles /home/nawres/scout_simulation/build/realsense_gazebo_plugin/CMakeFiles/progress.marks
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nawres/scout_simulation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/clean
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/preinstall
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/preinstall
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/rule:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/rule
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/rule
 .PHONY : realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ realsense_gazebo_plugin: realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plu
 
 # fast build rule for target.
 realsense_gazebo_plugin/fast:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build
 .PHONY : realsense_gazebo_plugin/fast
 
 src/RealSensePlugin.o: src/RealSensePlugin.cpp.o
@@ -188,7 +188,7 @@ src/RealSensePlugin.o: src/RealSensePlugin.cpp.o
 
 # target to build an object file
 src/RealSensePlugin.cpp.o:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o
 .PHONY : src/RealSensePlugin.cpp.o
 
 src/RealSensePlugin.i: src/RealSensePlugin.cpp.i
@@ -197,7 +197,7 @@ src/RealSensePlugin.i: src/RealSensePlugin.cpp.i
 
 # target to preprocess a source file
 src/RealSensePlugin.cpp.i:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.i
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.i
 .PHONY : src/RealSensePlugin.cpp.i
 
 src/RealSensePlugin.s: src/RealSensePlugin.cpp.s
@@ -206,7 +206,7 @@ src/RealSensePlugin.s: src/RealSensePlugin.cpp.s
 
 # target to generate assembly for a file
 src/RealSensePlugin.cpp.s:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.s
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.s
 .PHONY : src/RealSensePlugin.cpp.s
 
 src/gazebo_ros_realsense.o: src/gazebo_ros_realsense.cpp.o
@@ -215,7 +215,7 @@ src/gazebo_ros_realsense.o: src/gazebo_ros_realsense.cpp.o
 
 # target to build an object file
 src/gazebo_ros_realsense.cpp.o:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o
 .PHONY : src/gazebo_ros_realsense.cpp.o
 
 src/gazebo_ros_realsense.i: src/gazebo_ros_realsense.cpp.i
@@ -224,7 +224,7 @@ src/gazebo_ros_realsense.i: src/gazebo_ros_realsense.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_realsense.cpp.i:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.i
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.i
 .PHONY : src/gazebo_ros_realsense.cpp.i
 
 src/gazebo_ros_realsense.s: src/gazebo_ros_realsense.cpp.s
@@ -233,7 +233,7 @@ src/gazebo_ros_realsense.s: src/gazebo_ros_realsense.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_realsense.cpp.s:
-	cd /home/nawres/simulation_ws/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.s
+	cd /home/nawres/scout_simulation/build && $(MAKE) -f realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_gazebo_plugin/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.s
 .PHONY : src/gazebo_ros_realsense.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

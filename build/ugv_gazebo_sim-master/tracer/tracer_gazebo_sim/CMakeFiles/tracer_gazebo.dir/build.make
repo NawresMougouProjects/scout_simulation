@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nawres/simulation_ws/src
+CMAKE_SOURCE_DIR = /home/nawres/scout_simulation/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nawres/simulation_ws/build
+CMAKE_BINARY_DIR = /home/nawres/scout_simulation/build
 
 # Include any dependencies generated for this target.
 include ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/depend.make
@@ -58,17 +58,17 @@ include ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.
 include ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/flags.make
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/flags.make
-ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o: /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o -c /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp
+ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o: /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o -c /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.i"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp > CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.i
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp > CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.i
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.s"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp -o CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.s
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/src/tracer_skid_steer.cpp -o CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.s
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o.requires:
 
@@ -88,15 +88,15 @@ tracer_gazebo_OBJECTS = \
 # External object files for target tracer_gazebo
 tracer_gazebo_EXTERNAL_OBJECTS =
 
-/home/nawres/simulation_ws/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o
-/home/nawres/simulation_ws/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/build.make
-/home/nawres/simulation_ws/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/simulation_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/nawres/simulation_ws/devel/lib/libtracer_gazebo.a"
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/tracer_gazebo.dir/cmake_clean_target.cmake
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracer_gazebo.dir/link.txt --verbose=$(VERBOSE)
+/home/nawres/scout_simulation/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o
+/home/nawres/scout_simulation/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/build.make
+/home/nawres/scout_simulation/devel/lib/libtracer_gazebo.a: ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nawres/scout_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/nawres/scout_simulation/devel/lib/libtracer_gazebo.a"
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/tracer_gazebo.dir/cmake_clean_target.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracer_gazebo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/build: /home/nawres/simulation_ws/devel/lib/libtracer_gazebo.a
+ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/build: /home/nawres/scout_simulation/devel/lib/libtracer_gazebo.a
 
 .PHONY : ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/build
 
@@ -105,10 +105,10 @@ ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/requ
 .PHONY : ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/requires
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/clean:
-	cd /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/tracer_gazebo.dir/cmake_clean.cmake
+	cd /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/tracer_gazebo.dir/cmake_clean.cmake
 .PHONY : ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/clean
 
 ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/depend:
-	cd /home/nawres/simulation_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/simulation_ws/src /home/nawres/simulation_ws/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim /home/nawres/simulation_ws/build /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim /home/nawres/simulation_ws/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nawres/scout_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nawres/scout_simulation/src /home/nawres/scout_simulation/src/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim /home/nawres/scout_simulation/build /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim /home/nawres/scout_simulation/build/ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ugv_gazebo_sim-master/tracer/tracer_gazebo_sim/CMakeFiles/tracer_gazebo.dir/depend
 
