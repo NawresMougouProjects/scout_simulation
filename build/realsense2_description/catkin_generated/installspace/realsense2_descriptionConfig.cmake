@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/nawres/scout_simulation/install/lib;/home/nawres/scout_simulation/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/nawres/scout_simulation/install/lib;/home/nawres/scout_simulation/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(realsense2_description_LIBRARIES ${realsense2_description_LIBRARIES})
 
   _list_append_unique(realsense2_description_LIBRARY_DIRS ${${realsense2_description_dep}_LIBRARY_DIRS})
-  list(APPEND realsense2_description_EXPORTED_TARGETS ${${realsense2_description_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(realsense2_description_EXPORTED_TARGETS ${${realsense2_description_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/steer_drive_controller_timeout_test.dir/test/steer_drive_controller_timeout_test/steer_drive_controller_timeout_test.cpp.o"
-  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_timeout_test.pdb"
   "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_timeout_test"
+  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_timeout_test.pdb"
+  "CMakeFiles/steer_drive_controller_timeout_test.dir/test/steer_drive_controller_timeout_test/steer_drive_controller_timeout_test.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

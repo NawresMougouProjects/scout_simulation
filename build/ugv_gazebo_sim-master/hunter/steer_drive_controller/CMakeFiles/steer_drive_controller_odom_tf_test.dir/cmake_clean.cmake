@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/steer_drive_controller_odom_tf_test.dir/test/steer_drive_controller_odom_tf_test/steer_drive_controller_odom_tf_test.cpp.o"
-  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_odom_tf_test.pdb"
   "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_odom_tf_test"
+  "/home/nawres/scout_simulation/devel/lib/steer_drive_controller/steer_drive_controller_odom_tf_test.pdb"
+  "CMakeFiles/steer_drive_controller_odom_tf_test.dir/test/steer_drive_controller_odom_tf_test/steer_drive_controller_odom_tf_test.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

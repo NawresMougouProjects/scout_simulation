@@ -1,8 +1,0 @@
-prefix=/home/nawres/catkin_ws/install
-
-Name: my_object_recognition
-Description: Description of my_object_recognition
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

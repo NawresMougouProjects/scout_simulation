@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/steer_drive_controller.dir/src/steer_drive_controller.cpp.o"
-  "CMakeFiles/steer_drive_controller.dir/src/odometry.cpp.o"
-  "CMakeFiles/steer_drive_controller.dir/src/speed_limiter.cpp.o"
   "/home/nawres/scout_simulation/devel/lib/libsteer_drive_controller.pdb"
   "/home/nawres/scout_simulation/devel/lib/libsteer_drive_controller.so"
+  "CMakeFiles/steer_drive_controller.dir/src/odometry.cpp.o"
+  "CMakeFiles/steer_drive_controller.dir/src/speed_limiter.cpp.o"
+  "CMakeFiles/steer_drive_controller.dir/src/steer_drive_controller.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

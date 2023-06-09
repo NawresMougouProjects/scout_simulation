@@ -10,7 +10,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "LIBBULLET_VERSION=2.87"
+  "BOOST_TEST_DYN_LINK"
+  "LIBBULLET_VERSION=2.88"
   "LIBBULLET_VERSION_GT_282"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
@@ -20,26 +21,27 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/nawres/scout_simulation/src/ugv_gazebo_sim-master/hunter/steer_drive_controller/include"
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/usr/include/gazebo-9"
+  "/opt/ros/noetic/include"
+  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/gazebo-11"
   "/usr/include/bullet"
   "/usr/include/simbody"
-  "/usr/include/sdformat-6.0"
-  "/usr/include/ignition/math4"
+  "/usr/include/sdformat-9.8"
+  "/usr/include/ignition/math6"
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
-  "/usr/include/ignition/transport4"
-  "/usr/include/ignition/msgs1"
-  "/usr/include/ignition/common1"
-  "/usr/include/ignition/fuel_tools1"
+  "/usr/include/ignition/transport8"
+  "/usr/include/ignition/msgs5"
+  "/usr/include/ignition/common3"
+  "/usr/include/ignition/fuel_tools4"
   "/usr/src/googletest/googletest/include"
+  "/usr/src/googletest/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/nawres/scout_simulation/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/nawres/scout_simulation/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

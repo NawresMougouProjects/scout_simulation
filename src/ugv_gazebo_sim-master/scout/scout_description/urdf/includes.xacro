@@ -7,6 +7,7 @@
 
   <!-- Intel Realsense Macro -->
   <xacro:include filename="$(find scout_description)/urdf/includes/parts/sensors/realsense/_d435.urdf.xacro" />    
+    
   <!-- Intel Realsense Macro -->
 
 </robot>
