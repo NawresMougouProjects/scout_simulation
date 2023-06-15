@@ -59,6 +59,15 @@
         <parent link="base_link" />
         <child link="chassis_link" />
     </joint> -->
+   
+   <!-- Base footprint is on the ground under the robot -->
+  <link name="base_footprint"/>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <origin xyz="0 0 ${wheel_vertical_offset - wheel_radius}" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="base_footprint" />
+  </joint>
 
     <link name="inertial_link">
         <inertial>

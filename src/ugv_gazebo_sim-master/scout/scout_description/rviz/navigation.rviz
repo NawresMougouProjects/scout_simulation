@@ -6,10 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /RobotModel1
-        - /TF1
-        - /Image1
-        - /LaserScan1
       Splitter Ratio: 0.5
     Tree Height: 328
   - Class: rviz/Selection
@@ -65,6 +61,10 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         base_link:
           Alpha: 1
           Show Axes: false
@@ -153,6 +153,8 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        base_footprint:
+          Value: true
         base_link:
           Value: true
         front_left_wheel_link:
@@ -162,6 +164,8 @@ Visualization Manager:
         hokuyo_link:
           Value: true
         inertial_link:
+          Value: true
+        odom:
           Value: true
         realsense_d435_bottom_screw_frame:
           Value: true
@@ -194,33 +198,36 @@ Visualization Manager:
       Show Axes: false
       Show Names: false
       Tree:
-        base_link:
-          front_left_wheel_link:
-            {}
-          front_right_wheel_link:
-            {}
-          hokuyo_link:
-            {}
-          inertial_link:
-            {}
-          realsense_d435_bottom_screw_frame:
-            realsense_d435_link:
-              realsense_d435_depth_frame:
-                realsense_d435_color_frame:
-                  realsense_d435_color_optical_frame:
+        odom:
+          base_link:
+            base_footprint:
+              {}
+            front_left_wheel_link:
+              {}
+            front_right_wheel_link:
+              {}
+            hokuyo_link:
+              {}
+            inertial_link:
+              {}
+            realsense_d435_bottom_screw_frame:
+              realsense_d435_link:
+                realsense_d435_depth_frame:
+                  realsense_d435_color_frame:
+                    realsense_d435_color_optical_frame:
+                      {}
+                  realsense_d435_depth_optical_frame:
                     {}
-                realsense_d435_depth_optical_frame:
-                  {}
-                realsense_d435_left_ir_frame:
-                  realsense_d435_left_ir_optical_frame:
-                    {}
-                realsense_d435_right_ir_frame:
-                  realsense_d435_right_ir_optical_frame:
-                    {}
-          rear_left_wheel_link:
-            {}
-          rear_right_wheel_link:
-            {}
+                  realsense_d435_left_ir_frame:
+                    realsense_d435_left_ir_optical_frame:
+                      {}
+                  realsense_d435_right_ir_frame:
+                    realsense_d435_right_ir_optical_frame:
+                      {}
+            rear_left_wheel_link:
+              {}
+            rear_right_wheel_link:
+              {}
       Update Interval: 0
       Value: true
     - Class: rviz/Image
@@ -258,7 +265,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.029999999329447746
       Style: Flat Squares
-      Topic: /scout/laser/scan
+      Topic: /scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true

@@ -15,6 +15,11 @@ Reference:
     <!-- <gazebo reference="base_link">
         <material>Gazebo/Grey</material>
     </gazebo> -->
+    
+    <physics>
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
 
     <!-- Actuator configurations -->
     <xacro:scout_wheel_transmission wheel_prefix="front_right" />
@@ -67,7 +72,8 @@ Reference:
         <!--maxContacts value="64"/-->
     </gazebo>
     
-    <!-- <gazebo>
+    <!-- -->
+    <gazebo>
         <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
             <updateRate>100.0</updateRate>
             <robotNamespace></robotNamespace>
@@ -87,9 +93,10 @@ Reference:
             <covariance_y>0.000100</covariance_y>
             <covariance_yaw>0.010000</covariance_yaw>
         </plugin>
-    </gazebo> -->
+    </gazebo> 
 
-    <!-- <gazebo>
+
+    <!-- --><gazebo>
         <plugin name="object_controller" filename="libgazebo_ros_planar_move.so">
             <commandTopic>cmd_vel</commandTopic>
             <odometryTopic>odom</odometryTopic>
@@ -97,13 +104,13 @@ Reference:
             <odometryRate>20.0</odometryRate>
             <robotBaseFrame>base_footprint</robotBaseFrame>
         </plugin>
-    </gazebo> -->
+    </gazebo> 
 
  <!-- hokuyo -->
   <gazebo reference="hokuyo_link">
     <sensor type="gpu_ray" name="head_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
@@ -130,7 +137,7 @@ Reference:
         </noise>
       </ray>
       <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_gpu_laser.so">
-        <topicName>/scout/laser/scan</topicName>
+        <topicName>/scan</topicName>
         <frameName>hokuyo_link</frameName>
       </plugin>
     </sensor>
