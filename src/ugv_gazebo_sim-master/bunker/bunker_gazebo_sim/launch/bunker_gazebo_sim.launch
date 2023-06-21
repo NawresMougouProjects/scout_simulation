@@ -1,12 +1,24 @@
 <launch>
+     <arg name="robot_namespace" default="/"/>
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+    <!-- Load the surrounding environment into Gazebo -->
+    <arg name="world_name" default="$(find bunker_gazebo_sim)worlds/clearpath_playpen.world"/>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(arg world_name)"/>
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+    
+   <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
 
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
-    <arg name="debug" value="false"/>
+    <arg name="debug" value="false"/>  -->
 
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description" command="$(find xacro)/xacro  '$(find bunker_gazebo_sim)/urdf/bunker.xacro'" /> 
@@ -16,6 +28,6 @@
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
 	args="-unpause -urdf -model bunker -param robot_description -x 0.0 -y 0.0 -z 0.0"/> 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
-
+     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find bunker_description)/rviz/display.rviz" />  
 </launch>
 
